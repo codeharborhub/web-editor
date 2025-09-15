@@ -38,8 +38,8 @@ A production-ready, browser-based code editor built with React, TypeScript, and 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/codeharbor-web-editor.git
-cd codeharbor-web-editor
+git clone https://github.com/your-username/web-editor.git
+cd web-editor
 
 # Install dependencies
 npm install
@@ -151,6 +151,7 @@ vercel --prod
 ```
 
 ### Netlify
+
 ```bash
 # Build project
 npm run build
@@ -160,6 +161,7 @@ npm run build
 ```
 
 ### GitHub Pages
+
 ```bash
 # Install gh-pages
 npm install --save-dev gh-pages
@@ -173,6 +175,7 @@ npm run deploy
 ```
 
 ### Docker
+
 ```dockerfile
 FROM node:18-alpine
 WORKDIR /app
@@ -187,6 +190,7 @@ CMD ["npm", "run", "preview"]
 ## ⚙️ Configuration
 
 ### Environment Variables
+
 ```env
 VITE_GITHUB_CLIENT_ID=your_github_client_id
 VITE_APP_VERSION=1.0.0
@@ -269,7 +273,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ### Development Setup
 ```bash
-git clone https://github.com/your-username/codeharbor-web-editor.git
+git clone https://github.com/your-username/web-editor.git
 cd codeharbor-web-editor
 npm install
 npm run dev
@@ -288,10 +292,10 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## 📞 Support
 
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/your-username/codeharbor-web-editor/issues)
-- 💡 **Feature Requests:** [GitHub Discussions](https://github.com/your-username/codeharbor-web-editor/discussions)
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/your-username/web-editor/issues)
+- 💡 **Feature Requests:** [GitHub Discussions](https://github.com/your-username/web-editor/discussions)
 - 📧 **Email:** support@codeharbor.dev
-- 💬 **Discord:** [CodeHarborHub Community](https://discord.gg/codeharbor)
+- 💬 **Discord:** [CodeHarborHub Community](#)
 
 ---
 
